@@ -10,20 +10,20 @@
 
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="icon.ico" />
-    <None Remove="icon.bmp" />
+    <None Remove="Icon.ico" />
+    <None Remove="Icon.bmp" />
   </ItemGroup>
 
 	<ItemGroup>
-		<EmbeddedResource Include="icon.ico">
-			<LogicalName>icon.ico</LogicalName>
+		<EmbeddedResource Include="Icon.ico">
+			<LogicalName>Icon.ico</LogicalName>
 		</EmbeddedResource>
-		<EmbeddedResource Include="icon.bmp">
-			<LogicalName>icon.bmp</LogicalName>
+		<EmbeddedResource Include="Icon.bmp">
+			<LogicalName>Icon.bmp</LogicalName>
 		</EmbeddedResource>
 	</ItemGroup>
 
