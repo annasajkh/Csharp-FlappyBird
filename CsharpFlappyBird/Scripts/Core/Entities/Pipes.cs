@@ -22,7 +22,9 @@ public class Pipes
         {
             up.position.X = 1000 - up.rectangle.Width;
             down.position.X = 1000 - up.rectangle.Width;
+
             float randomNum = gap + (float)Application.random.NextDouble() * (Application.graphics.PreferredBackBufferHeight - gap);
+
             up.position.Y = randomNum - Application.halfPipeHeight - gap;
             down.position.Y = randomNum + Application.halfPipeHeight;
 

@@ -23,6 +23,7 @@ public abstract class GameObject
 
         int width = (int)(texture.Width * Application.scale);
         int height = (int)(texture.Height * Application.scale);
+
         origin = new Vector2(texture.Width / 2, texture.Height / 2);
         rectangle = new Rect((int)(position.X + origin.X), (int)(position.Y - origin.Y), width, height);
     }
